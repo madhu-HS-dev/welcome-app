@@ -1,0 +1,52 @@
+/* Write your CSS here */
+
+.welcome-container {
+  background-color: #1e293b;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .welcome-container {
+    width: 50%;
+  }
+}
+
+.heading {
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+  font-size: 70px;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+
+.paragraph {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .paragraph {
+    font-size: 2 0px;
+  }
+}
+
+.button {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-weight: 550;
+  padding: 6px;
+  width: 90px;
+  border-radius: 10px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
